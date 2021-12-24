@@ -8,9 +8,11 @@ import { ComboComponent } from './combo/combo.component';
 import { DownloadsComponent } from './downloads/downloads.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.compontent';
+import { InternalMenuComponent } from './internalMenu/internalMenu.component';
 import { SpecialityComponent } from './speciality/speciality.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     TestimonialComponent,
     ComboComponent,
     DownloadsComponent,
-    SpecialityComponent
+    SpecialityComponent,
+    InternalMenuComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
